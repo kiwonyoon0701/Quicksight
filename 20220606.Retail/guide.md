@@ -116,7 +116,9 @@ Amazon QuickSight는 조직 내 모든 구성원에게 통찰력을 손쉽게 �
 
  
 
- 
+  [manifest.json](manifest.json) 
+
+ [retail-dataset.csv](retail-dataset.csv) 
 
 
 
