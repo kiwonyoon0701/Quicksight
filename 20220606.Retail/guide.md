@@ -118,7 +118,7 @@ Amazon QuickSight는 조직 내 모든 구성원에게 통찰력을 손쉽게 �
 
  
 
-  [retail-dataset.csv](../../../../Downloads/retail-dataset.csv) 
+
 
 \* 데이터 위치: https://aws-kr-immersionday.s3.ap-northeast-2.amazonaws.com/quicksight/retail-dataset.csv
 
