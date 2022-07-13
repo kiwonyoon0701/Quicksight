@@ -114,17 +114,13 @@ Amazon QuickSight는 조직 내 모든 구성원에게 통찰력을 손쉽게 �
 | price        | 가격          | DECIMAL      | productname  | 제품명        | STRING       |
 | discount     | 할인률        | DECIMAL      | quantity     | 수량          | INTEGER      |
 
- 
-
-  [manifest.json](manifest.json) 
-
- [retail-dataset.csv](retail-dataset.csv) 
 
 
+**retail-dataset.csv** : [retail-dataset.csv](retail-dataset.csv) 
 
-\* 데이터 위치: https://aws-kr-immersionday.s3.ap-northeast-2.amazonaws.com/quicksight/retail-dataset.csv
+**Quicksight Manifest** : [manifest.json](manifest.json) 
 
- 
+
 
 ---
 
@@ -132,9 +128,9 @@ Amazon QuickSight는 조직 내 모든 구성원에게 통찰력을 손쉽게 �
 
  
 
-\1.   **AWS** **관리 콘솔** 의 **서비스 찾기** 에서 **QuickSight** 를 입력한 후 **QuickSight** 로 이동합니다.
+1. **AWS** **관리 콘솔** 의 **서비스 찾기** 에서 **QuickSight** 를 입력한 후 **QuickSight** 로 이동합니다.
 
- 
+![image-20220606152512787](images/image-20220606152512787.png)
 
 \2.   **QuickSight**를 처음 사용하는 경우 **Sign up** (가입)을 통해 사용할 환경을 생성합니다.
 
