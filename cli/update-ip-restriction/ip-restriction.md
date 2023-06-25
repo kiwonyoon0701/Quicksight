@@ -413,6 +413,10 @@ kiwony@kiwonymac.com:/Users/kiwony/Documents/GitHub/Quicksight/cli/update-ip-res
 
 ```
 https://repost.aws/knowledge-center/quicksight-redshift-private-connection
+
+아직 보진 않았으나 유용할듯
+https://www.youtube.com/watch?v=TcZuNPQ-QlA
+
 ```
 
 
