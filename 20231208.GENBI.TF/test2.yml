@@ -1,0 +1,36 @@
+Description: Create Aurora MySQL cluster from snapshot
+
+Resources:
+
+  DBSubnetGroup:
+    Type: AWS::RDS::DBSubnetGroup
+    Properties:
+      DBSubnetGroupDescription: Subnets for Aurora DB cluster
+      SubnetIds: 
+        - subnet-0782l3e53ce178884 
+        - subnet-0582f3ac43e655562
+
+  DBClusterSecurityGroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties: 
+      GroupDescription: Access to Aurora cluster
+      VpcId: vpc-0efa8367521177930
+      SecurityGroupIngress:
+        - IpProtocol: tcp
+          FromPort: 3306
+          ToPort: 3306
+          CidrIp: 0.0.0.0/0
+
+  DBCluster:
+    Type: AWS::RDS::DBCluster
+    Properties:
+      Engine: aurora-mysql
+      EngineVersion: "8.0.mysql_aurora.3.01.0"
+      DBSubnetGroupName: 
+        Ref: DBSubnetGroup
+      VpcSecurityGroupIds:
+        - Ref: DBClusterSecurityGroup
+      SnapshotIdentifier: "arn:aws:rds:us-east-1:664695030410:cluster-snapshot:retail-data-qs-kiwony-20231122-virginia"
+      DatabaseName: mydb
+      MasterUsername: admin
+      MasterUserPassword: Octank#1234
