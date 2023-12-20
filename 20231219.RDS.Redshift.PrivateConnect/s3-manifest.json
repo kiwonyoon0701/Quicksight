@@ -1,0 +1,13 @@
+{
+  "fileLocations": [
+    {
+      "URIPrefixes": [
+        "s3://s3-quicksight-20231219-kiwony/"
+      ]
+    }
+  ],
+  "globalUploadSettings": {
+    "format": "CSV"
+  }
+}
+
